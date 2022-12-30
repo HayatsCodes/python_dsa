@@ -3,5 +3,5 @@ def multiply_by2(li):
     for item in li:
         new_list.append(item * 2)
     return new_list
-
-print(multiply_by2([1,2,3])) 
+# prit is a side effect so it violates pure function rule
+print(multiply_by2([1,2,3]))
