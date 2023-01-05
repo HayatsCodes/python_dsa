@@ -39,8 +39,8 @@ for i in range(100):
 print()
 
 
-""" Exercis 1... """
-print('Exercis 1...')
+""" Exercise 1... """
+print('Exercise 1...')
 print('-----------------')
 print()
 
@@ -74,6 +74,91 @@ for i in range(num):
 # 24
 # 120
 
+print()
+
+""" Exercise 2... """
+print('Exercise 2...')
+print('-----------------')
+print()
+
+
+correct = [[1,2,3],
+           [2,3,1],
+           [3,1,2]]
+
+incorrect = [[1,2,3,4],
+             [2,3,1,3],
+             [3,1,2,3],
+             [4,4,4,4]]
+
+incorrect2 = [[1,2,3,4],
+             [2,3,1,4],
+             [4,1,2,3],
+             [3,4,1,2]]
+
+incorrect3 = [[1,2,3,4,5],
+              [2,3,1,5,6],
+              [4,5,2,1,3],
+              [3,4,5,2,1],
+              [5,6,4,3,2]]
+
+incorrect4 = [['a','b','c'],
+              ['b','c','a'],
+              ['c','a','b']]
+
+incorrect5 = [ [1, 1.5],
+               [1.5, 1]]
+               
+# Define a function check_sudoku() here:
+def check_sudoku(square):
+    """ Checks for valid sudoku solution.
+
+        Return:
+            True if it's valid, else false
+    """
+    # loop through the rows in square
+    # create a check_column variable on each iteration to check for 1 - n numbers
+    # after finding the number remove it from check_column
+    # else return false
+    # loop through 0 to the length of square - 1 using n
+    # create a check_row simmilar to check_column
+    # if row[n] is not in check_row
+    #   return false
+    # return true
+
+    for rows in square:
+        check_column = list(range(1, len(square) + 1))
+        for i in rows:
+            if (i not in check_column):
+                return False
+            check_column.remove(i)
+    for n in (range(len(square) - 1)):
+        check_row = list(list(range(1, len(square) + 1)))
+        for row in square:
+            if row[n] not in check_row:
+                return False
+            check_row.remove(row[n])
+    return True
 
 
 
+
+    
+    
+print(check_sudoku(incorrect))
+#>>> False
+
+print(check_sudoku(correct))
+#>>> True
+
+print(check_sudoku(incorrect2))
+#>>> False
+
+print(check_sudoku(incorrect3))
+#>>> False
+
+print(check_sudoku(incorrect4))
+#>>> False
+
+print(check_sudoku(incorrect5))
+#>>> False
