@@ -8,3 +8,9 @@
 # 1. Data - contains the value to be stored in the node
 # 2. Next - contains a reference to the next node on the list.
 
+# Head: The first node of the linked list and it is required to traverse through the entire lists
+
+# Applications  of linked lists in DSA:
+#  Used to implement a stack (LIFO)
+#  Used to implement a graph (adjacency lists: a list/dict of linked lists)
+
