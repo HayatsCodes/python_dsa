@@ -45,4 +45,4 @@ def printArr(arr, capacity):
         print(arr[i])
 
 
-# 
+# dynamic arrays 
