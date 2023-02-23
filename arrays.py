@@ -43,3 +43,5 @@ arr = [10, 20, 30, 40, 50, 60, 70, 80, 90, 100, 1000]
 def printArr(arr, capacity):
     for i in range(capacity):
         print(arr[i])
+
+
