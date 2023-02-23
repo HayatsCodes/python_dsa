@@ -38,6 +38,7 @@ def removeMiddle(arr, i, length):
         arr[index - 1] = arr[index]
     # No need to 'remove' arr[i], since we already shifted
 
+
 def printArr(arr, capacity):
     for i in range(capacity):
         print(arr[i])
