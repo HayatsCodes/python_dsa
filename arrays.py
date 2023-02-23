@@ -1,1 +1,1 @@
-# 
+# reading in an array is O(1)
