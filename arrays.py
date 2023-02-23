@@ -1,1 +1,1 @@
-# reading in an array is O(1)
+# static arrays are fixed size
