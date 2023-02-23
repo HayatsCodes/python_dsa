@@ -46,4 +46,4 @@ def printArr(arr, capacity):
 
 
 # dynamic arrays size varies
-# its has an amortized time complexity of O(1)
+# its has an amortized time complexity of O(1) (i.e average time it takes)
