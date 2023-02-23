@@ -1,5 +1,5 @@
 # static arrays are fixed size
-# reading and writing values to an array is O(1)
+# reading and writing values to a static array that has space is O(1)
 # removing/writing to the end of an array is O(1)
 # removing/inserting to any other spot in the array is inefficient and it's O(n)
 
@@ -46,4 +46,4 @@ def printArr(arr, capacity):
 
 
 # dynamic arrays size varies
-# its has an amortized time complexity of O(1) (i.e average time it takes)
+# reading and writing to  has an amortized time complexity of O(1) (i.e average time it takes)
