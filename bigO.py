@@ -1,2 +1,2 @@
-#Time Complexity: This is a way of showing how the runtime of a function
+#Time Complexity: This is the time it takes a function to execute
 # increases as the size of the input increases
