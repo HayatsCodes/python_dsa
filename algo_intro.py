@@ -13,7 +13,7 @@
 # The common notations are:
 # Polynomial runtimes O(n^k):
     # O(1) - constant time: it always takes the same time to execute the algorithm.
-    # O(log n) - logarithmic time: it takes the log of n + 1 to executethe algorithm.
+    # O(log n) - logarithmic time: it takes the log of n + 1 to execute the algorithm.
     # O(n) - linear time: it takes the exact amount of input to execute the program
     # O(n^2) - quadratic time: it takes the square of the input to complete the algorithm
     # O(n log n) - Quasilinear time
