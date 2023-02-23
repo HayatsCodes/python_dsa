@@ -44,3 +44,7 @@ def printArr(arr, capacity):
     for i in range(capacity):
         print(arr[i])
 
+print(insertEnd(1001))
+print()
+print()
+print()
