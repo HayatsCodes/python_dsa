@@ -49,3 +49,4 @@ def printArr(arr, capacity):
 # reading and writing to it has an amortized time complexity 
 # (i.e average time it takes) of O(1) since it creates new array
 # any time there's no space for more values
+
