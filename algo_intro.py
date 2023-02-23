@@ -19,4 +19,4 @@
     # O(n log n) - Quasilinear time
 # Exponential runtimes O(x^n):
     # Brute force algorithm
-    # factorial/comninatprial
+    # factorial/comninatprial 
