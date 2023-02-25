@@ -100,3 +100,5 @@ class Array:
         for i in range(self.length):
             print(self.arr[i])
         print()
+
+
