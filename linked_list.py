@@ -5,4 +5,8 @@ class ListNode:
 
 class LinkedList:
     def __init__(self):
-        self.head =
+        self.head = ListNode(-1)
+        self.tail = self.head
+    
+    def insertEnd(self, val):
+        
