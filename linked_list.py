@@ -9,4 +9,4 @@ class LinkedList:
         self.tail = self.head
     
     def insertEnd(self, val):
-        self.tail.next = ListNode(val)hchchc
+        self.tail.next = ListNode(val)
