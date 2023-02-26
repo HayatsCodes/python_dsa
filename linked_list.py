@@ -3,3 +3,6 @@ class ListNode:
         self.val = val
         self.next = None
 
+class LinkedList:
+    def __init__(self):
+        self.head =
