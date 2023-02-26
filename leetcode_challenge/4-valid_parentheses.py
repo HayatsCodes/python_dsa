@@ -27,7 +27,7 @@ class Solution(object):
             elif x in s_dict.values():
                 if len(a_stack) == 0:
                     return False
-                if x == s_dict[a_stack[len(a_stack) - 1]]:
+                if x == s_dict[a_stack[- 1]]:
                     a_stack.pop()
                 else:
                     return False
