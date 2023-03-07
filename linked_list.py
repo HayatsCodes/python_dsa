@@ -11,4 +11,6 @@ class LinkedList:
     def insertEnd(self, val):
         self.tail.next = ListNode(val) 
     
-    def 
+    def remove(self, index):
+        curr = self.head
+        while curr != None
