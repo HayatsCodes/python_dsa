@@ -12,7 +12,7 @@ class LinkedList:
         self.tail.next = ListNode(val) 
     
     def remove(self, index):
-        i =0
+        i = 0
         curr = self.head
-        while curr.next != None
+        while curr != None
             curr = curr.next
