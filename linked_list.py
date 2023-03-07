@@ -10,3 +10,5 @@ class LinkedList:
     
     def insertEnd(self, val):
         self.tail.next = ListNode(val) 
+    
+    def 
