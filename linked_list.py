@@ -22,4 +22,6 @@ class LinkedList:
     def print(self):
         curr = self.head.next
         while curr:
-            
+            print(curr.val, '->')
+            curr = curr.next
+        print()
