@@ -18,4 +18,8 @@ class LinkedList:
             i += 1
             curr = curr.next
         if curr:
+            curr.next = curr.next.next
+    def print(self):
+        curr = self.head.next
+        while curr:
             
