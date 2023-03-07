@@ -13,4 +13,5 @@ class LinkedList:
     
     def remove(self, index):
         curr = self.head
-        while curr != None
+        while curr.next != None
+            curr = curr.next
